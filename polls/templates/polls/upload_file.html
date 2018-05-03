@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+<head>
+	<meta charset = "UTF-8">
+	<title>UPLOAD_PHOTO</title>
+    
+</head>
+<body>
+"Your file uploaded successfully"
+<br>
+
+<img src="{{request.FILES}}" alt="img">
+<br>
+<img src="{{request.FILES.photo}}" alt="img">
+<br>
+<img src= "home/qwerty1434/python_file/django/imageloader/photos/{{request.FILES.photo}}" alt = "img">
+"{{request.FILES}}"
+
+</body>
+</html>
